@@ -2,7 +2,7 @@
 var kyData = {"GEOCODE":21,"NAME":"Kentucky","multi_race":244840,"hisp_latino":207854,"white_alone_nh":3664764,"black_alone_nh":357764,"asian_alone_nh":73843,"other_races":14706}
 import * as d3 from 'd3'
 let pymChild
-mapboxgl.accessToken = 'pk.eyJ1Ijoic3VoYWlsLWJoYXQiLCJhIjoiY2tpbWxzbnZ1MGRqejJ4bncwNHl4anUzaiJ9.NsWEhUt8IvcwkFyDOh9h7g';
+mapboxgl.accessToken = 'ACESS KEY';
 var map = new mapboxgl.Map({
     container: 'map', // container ID
     style: 'mapbox://styles/suhail-bhat/ckshyymd800cn17pnley1fnpk',
