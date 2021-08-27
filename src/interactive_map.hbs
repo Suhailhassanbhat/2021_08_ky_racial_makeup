@@ -1,0 +1,39 @@
+{{!< default}}
+
+<div class="story-body">
+    <hr>
+		<h2 class="center">Population share by race and ethnicity</h2>
+        <div class='button-container'>
+            <button id='white'>White</button>
+            <button id='black'>Black</button>
+            <button id='hispanic'>Hispanic</button>
+            <button id='asian'>Asian</button>
+            <button id='multirace'>Multiracial</button>
+            <button id='otherraces'>Other Races</button>
+        </div>
+        <div class='legend-container'><img class="map-legend" src="images/legend.svg" alt="info"></div>
+        <div class='instructions-note'>
+            <p class="instructions-note-desktop center">
+                <img class="instructions-icon" src="images/info.svg" alt="info">Double-click to zoom. Click for details</p>
+             <p class='instructions-note-mobile'><img class="instructions-icon" src="images/info.svg" alt="info">Use two fingers to pan and zoom. Tap for details.</p>
+        </div>
+
+
+		<div class="map-container">
+			<div id="map"></div>
+		</div>
+
+
+		<div class="mapOverlay">
+			<h3  class="center">Click on map for population details</h3>
+			<div id="pd">Kentucky</div>
+            <div  id="clickFeatures"></div>
+		</div>
+        <div class="note">Note: Other Races includes these population groups: American Indian and Alaska Native, Native Hawaiian and Other Pacific Islander and some other race. Because of their relatively small sizes, these groups were added together to make them comparable with other population groups. As Hispanic is an ethnicity, in this analysis, we assumed it as a separate category. All race categories are for non-Hispanic population.
+        </div>
+		{{!-- <p class='footer'>Source: Census Bureau 2020 </p> --}}
+		<hr>
+
+
+</div>
+<script src="scripts/graphic.js"></script>
